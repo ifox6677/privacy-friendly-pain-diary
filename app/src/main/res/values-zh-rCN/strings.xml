@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">疼痛日记</string>
+    <string name="app_name_long">隐私友好的疼痛日记</string>
+    <string name="app_prefix" translatable="false">隐私友好</string>
+
+    <!-- ### DRAWER ###-->
+    <string name="action_help">帮助</string>
+    <string name="action_about">关于</string>
+    <string name="action_settings">设置</string>
+    <string name="action_main">主界面</string>
+    <string name="action_tutorial">教程</string>
+
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+
+    <!-- ### GENERAL ### -->
+    <string name="okay">好的</string>
+    <string name="back">返回</string>
+    <string name="next">下一步</string>
+    <string name="skip">跳过</string>
+    <string name="save">保存</string>
+    <string name="save_error">无法保存。</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="changes_saved">更改已保存。</string>
+    <string name="changes_discarded">更改已丢弃。</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="set">设置</string>
+
+    <!-- ### MAIN ### -->
+    <string name="welcome_question">你今天感觉如何？</string>
+
+    <!--### HELP ###-->
+    <string name="help">帮助</string>
+
+    <string name="help_whatis">什么是隐私友好的疼痛日记？</string>
+    <string name="help_whatis_answer">隐私友好的疼痛日记是一款应用程序，它允许您记录日常的日记条目，记录您的状态以及您感受到的疼痛的强度、位置、性质和时间，还包括您服用的药物和额外的备注。</string>
+    <string name="help_privacy">是什么让这个应用程序隐私友好？</string>
+    <string name="help_privacy_answer">隐私友好的疼痛日记只需要最少的权限。它不包含任何跟踪机制或广告。</string>
+    <string name="help_permission">该应用程序需要哪些权限？</string>
+    <string name="help_permission_answer">如果您希望将日记条目导出为PDF，隐私友好的疼痛日记需要对设备存储的写入权限。所有其他功能不需要任何权限。</string>
+
+    <string name="help_add_entry">如何添加新的日记条目？</string>
+    <string name="help_add_entry_answer">可以通过选择日历中的某一天添加新的日记条目。但是，每天只能有一个条目。已经有条目的日子将在日历中标记。</string>
+    <string name="help_entry_information">日记条目中记录了哪些信息？</string>
+    <string name="help_entry_information_answer">日记条目可用于记录您的状态以及您感受到的疼痛的强度、位置、性质和时间。您服用的药物和额外的备注也可以记录下来。</string>
+    <string name="help_userdetails">我需要输入用户信息吗？</string>
+    <string name="help_userdetails_answer">该应用程序不要求您输入任何用户信息。您可以自由输入您的姓名、出生日期和性别，并且可以随时删除您之前输入的信息。您输入的信息不会以任何方式共享或传输。</string>
+    <string name="help_pdf_export">如何导出我的日记条目？</string>
+    <string name="help_pdf_export_answer">您可以导出在指定时间段内的所有日记条目。您还可以选择分享该PDF。选择菜单项“PDF导出”以进行操作。</string>
+
+    <!--### ABOUT ###-->
+    <string name="about">关于</string>
+    <string name="version_number">版本</string>
+    <string name="about_author">作者：</string>
+    <string name="about_author_names" translatable="false">Karola Marky, Susanne Felsen, Rybien Sinjari</string>
+    <string name="about_author_contributors">以及贡献者。</string>
+    <string name="about_affiliation">隶属于</string>
+    <string name="privacy_friendly">此应用程序属于由卡尔斯鲁厄理工学院开发的隐私友好应用程序组。源代码遵循GPLv3许可证。图片版权归KIT和Google公司所有。</string>
+    <string name="more_info">更多信息可以在以下网站找到：</string>
+    <string name="github" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-pain-diary">Github-Repo</a></string>
+    <string name="url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO-网站</a></string>
+
+    <!-- ### SETTINGS ### -->
+    <string name="title_activity_settings">设置</string>
+    <string name="pref_header_general">常规</string>
+    <string name="pref_reset">重置应用程序</string>
+    <string name="pref_reset_summary">删除所有日记条目和用户信息</string>
+    <string name="pref_reset_warning">所有日记条目和用户信息将被不可逆转地删除。\n您确定吗？</string>
+    <string name="pref_medication">记住药物</string>
+    <string name="pref_medication_summary">最后输入的药物会自动添加到新条目中</string>
+    <string name="pref_header_notifications">通知</string>
+    <string name="pref_reminder">每日提醒</string>
+    <string name="pref_reminder_time">提醒时间</string>
+
+    <!-- ### TUTORIAL DIALOG ### -->
+    <string name="slide1_heading">欢迎！</string>
+    <string name="slide1_text">此应用程序允许您记录日常的日记条目，记录您的状态以及您感受到的疼痛的强度、位置、性质和时间，还包括您服用的药物和额外的备注。</string>
+
+    <string name="slide2_heading">新的日记条目</string>
+    <string name="slide2_text">该应用程序的主界面是一个日历。您可以通过选择日历中的某一天来添加新的日记条目。然后您将被要求回答有关您的状态和疼痛问题。</string>
+
+    <string name="slide3_heading">用户信息</string>
+    <string name="slide3_text">在本教程结束时，您将被要求输入您的用户信息。此步骤是可选的，可以跳过。用户信息也可以在稍后输入或删除。</string>
+
+    <string name="slide4_heading">Github和指南</string>
+    <string name="slide4_text">此应用程序的源代码可在Github上找到。有关进一步的说明，请查看帮助页面或隐私友好应用指南。</string>
+
+    <!-- ### USER DETAILS ### -->
+    <string name="user_details">用户信息</string>
+    <string name="first_name">名字</string>
+    <string name="last_name">姓氏</string>
+    <string name="date_of_birth">出生日期</string>
+    <string name="gender">性别</string>
+    <string name="name_invalid">请输入有效的姓名。</string>
+    <string name="date_invalid">请输入有效的日期。</string>
+
+    <!-- ### GENDER ### -->
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="other">其他</string>
+
+    <!-- ### PAIN DESCRIPTION ### -->
+    <string name="pain_stabbing">刺痛</string>
+    <string name="pain_dull">钝痛</string>
+    <string name="pain_shooting">剧痛</string>
+    <string name="pain_burning">灼痛</string>
+    <string name="pain_throbbing">搏动性疼痛</string>
+
+    <!-- ### DIARY ENTRY ### -->
+    <string name="new_diary_entry">新的日记条目</string>
+    <string name="edit_diary_entry">编辑日记条目</string>
+    <string name="warning_leaving">您输入的信息将丢失。您想继续吗？</string>
+    <string name="heading_condition">您的状态如何？</string>
+    <string name="heading_painlevel">您的疼痛有多强？</string>
+    <string name="subheading_painlevel">(0 = 无痛，10 = 非常剧烈的疼痛（接近晕厥）)</string>
+    <string name="heading_bodyregion">您哪里疼痛？</string>
+    <string name="body_front">前部：</string>
+    <string name="body_back">后部：</string>
+    <string name="heading_paindescription">您的疼痛性质是什么？</string>
+    <string name="heading_timeofpain">您什么时候感到疼痛？</string>
+    <string name="time_day">白天</string>
+    <string name="time_morning">早晨</string>
+    <string name="time_afternoon">下午</string>
+    <string name="time_evening">晚上</string>
+    <string name="time_night">夜晚</string>
+    <string name="heading_notes">您有任何额外的备注吗？</string>
+    <string name="subheading_notes">(例如，关于运动或饮食)</string>
+    <string name="heading_medication">您正在服用什么药物？</string>
+    <string name="subheading_medication">按绿色加号添加新药物。输入您在早晨、中午、晚上和夜间服用的数量（如药片数）。</string>
+    <string name="medication">药物</string>
+    <string name="medication_name">名称</string>
+    <string name="dose">剂量</string>
+
+    <!-- ### VIEW DIARY ENTRY ### -->
+    <string name="condition">状态：</string>
+    <string name="painlevel">疼痛强度：</string>
+    <string name="bodyregion">疼痛位置：</string>
+    <string name="paindescription">疼痛性质：</string>
+    <string name="unknown">未知</string>
+    <string name="timeofpain">疼痛时间：</string>
+    <string name="notes">备注：</string>
+    <string name="none">无</string>
+    <string name="medication_taken">服用的药物：</string>
+    <string name="warning_deleting">您确定要删除此日记条目吗？</string>
+
+    <!-- ### REMINDER ### -->
+    <string name="reminders_channel_title">提醒</string>
+    <string name="notification_title">提醒</string>
+    <string name="notification_text">别忘了记录您的每日疼痛日记条目！</string>
+    <string name="snooze">稍后提醒</string>
+
+    <!-- ### PDF ### -->
+    <string name="export_pdf">PDF导出</string>
+    <string name="export">导出</string>
+    <string name="share">分享</string>
+    <string name="heading_export">请选择一个日期范围，以便将您的疼痛日记条目导出为PDF。</string>
+    <string name="start_date">开始日期</string>
+    <string name="end_date">结束日期</string>
+    <string name="start_date_error">请输入开始日期。</string>
+    <string name="end_date_error">请输入结束日期。</string>
+    <string name="patient_details">患者信息</string>
+    <string name="diary_entries">疼痛日记条目</string>
+    <string name="diary_entries_none">未找到条目。</string>
+    <string name="permission_write_error">错误：没有写入权限。</string>
+    <string name="permission_write_denied">权限被拒绝。无法导出日记条目。</string>
+    <string name="permission_write_granted">权限已授予。请再试一次。</string>
+    <string name="export_success">PDF已保存到文档文件夹。</string>
+    <string name="export_failure">未知错误：PDF无法保存。</string>
+    <string name="share_caution">请注意，您与谁分享您的医疗信息。</string>
+    <string name="dialog_need_permission_for_notifications">此功能需要发送通知的权限。</string>
+    <string name="dialog_need_permission_for_notifications_title">启用通知</string>
+</resources>
