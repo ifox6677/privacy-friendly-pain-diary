@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">疼痛日记</string>
-    <string name="app_name_long">隐私友好的疼痛日记</string>
+    <string name="app_name">病历本</string>
+    <string name="app_name_long">隐私友好的病历本</string>
     <string name="app_prefix" translatable="false">隐私友好</string>
 
     <!-- ### DRAWER ###-->
@@ -34,7 +34,7 @@
     <!--### HELP ###-->
     <string name="help">帮助</string>
 
-    <string name="help_whatis">什么是隐私友好的疼痛日记？</string>
+    <string name="help_whatis">什么是隐私友好的病历本？</string>
     <string name="help_whatis_answer">隐私友好的疼痛日记是一款应用程序，它允许您记录日常的日记条目，记录您的状态以及您感受到的疼痛的强度、位置、性质和时间，还包括您服用的药物和额外的备注。</string>
     <string name="help_privacy">是什么让这个应用程序隐私友好？</string>
     <string name="help_privacy_answer">隐私友好的疼痛日记只需要最少的权限。它不包含任何跟踪机制或广告。</string>
