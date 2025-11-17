@@ -171,5 +171,6 @@
 <string name="export_failure">未知错误：无法保存 PDF。</string>
 <string name="share_caution">小心您与谁分享您的医疗信息。</string>
 <string name="dialog_need_permission_for_notifications">此功能需要发送通知的权限。</string>
-<string name="dialog_need_permission_for_notifications_title">启用通知</string></resources>
+<string name="dialog_need_permission_for_notifications_title">启用通知</string>
+</resources>
 
